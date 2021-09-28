@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Is Your Birthday Lucky?</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="welcome">
+        <h1>Is Your Birthday lucky?</h1>
+        <h3>Lets Find Out.</h3>
+      </div>
+      <div class="privacy">
+        <h4>Privacy Notice! We are not storing your Data</h4>
+        <span id="close">Close</span>
+      </div>
+      <div class="input-div">
+        <div class="dob-section">
+          <h3>Enter you Date of Birth</h3>
+          <input type="date" name="dob" id="dob" />
+        </div>
+        <div class="favnum-section">
+          <h3>Enter your Favourite Number</h3>
+          <input
+            type="number"
+            name="number"
+            id="favnum"
+            placeholder="Enter your favourite number"
+          />
+          <span class="warning">Plase enter Valid inputs</span>
+        </div>
+        <button id="btn-check" class="btn btn-primary">Check</button>
+        <button id="btn-reset" class="btn">Reset</button>
+      </div>
+
+      <div class="output-section">
+        <div class="unlucky-div">
+          <h3 id="output">Your Birthday is Unlucky</h3>
+          <img src="/unlucky.webp" alt="unlucky" id="unlucky" />
+        </div>
+
+        <div class="lucky-div">
+          <h3 id="output">Your Birthday is Lucky</h3>
+          <img src="/lucky.webp" alt="lucky" id="lucky" />
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="social"></div>
+      <div class="copyright">
+        <p>All Rights reserved &copy; Abhisek Gupta | 2021</p>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
