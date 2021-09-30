@@ -1,12 +1,14 @@
 # Is-your-birthday-lucky
-IsYourBirthDayLucky is a web app that checks if someone's birthday is Lucky or Unluck. It takes two input, the birth date itself and a lucky number, based on this inputs, an algorithm checks and display if it was lucky or unlucky.
+IsYourBirthDayLucky is a web app that checks if someone's birthday is Lucky or Unlucky. 
+It takes two input, the birth date itself and a lucky number, based on this inputs, an algorithm checks and display if it was lucky or unlucky.
+Tech Stack used is HTML, CSS, JS
 
-1. This is a CLI based quiz game made using the browser based tool Repl.it.
+The main logic of the alsorith is
 
-2. This quiz check on your knowlwdge about the Doraemon series.
+      1. User's DOB is taken
 
-3. There are 10 questions related to the series.
+      2. User's Favourite number is taken
 
-4. This project was build as an assignment for Lesson one of LevelZero neog.camp
+      3. If SumOfDigit of DOB is exactly divisible by the favourite number, it is a lucky birthday else unlucky.
 
-5. Hosted live at : https://replit.com/@surmaimukherjee/Doraemon-quiz?v=1
+hosted live at : https://surmaiisbirthdaylucky.netlify.app/
